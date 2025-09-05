@@ -1,0 +1,39 @@
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+
+# Jupyter Notebooks checkpoints
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+# Configs (keep templates only)
+config/*.yaml
+!config/config_template.yaml
+params.yaml
+
+# Artifacts and models
+artifacts/
+models/
+*.pkl
+*.h5
+*.pt
+*.pth
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Build
+build/
+dist/
+*.egg-info/
